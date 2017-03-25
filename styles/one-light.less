@@ -1,0 +1,39 @@
+/*
+ * tree-view-panes patch for One Light
+ * https://github.com/susisu/tree-view-panes-styles/blob/master/styles/one-light.less
+ */
+
+/**************************************************************/
+.tree-view::before {
+  position: absolute !important;
+}
+
+.tree-view-panes {
+  .list-item-pane {
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      margin-left: -5px;
+      height: 3em;
+      width: 2px;
+      background: #568af2;
+      opacity: 0;
+      transition: opacity .16s;
+    }
+
+    &.active::before {
+      opacity: 1;
+      transition: opacity .32s;
+    }
+  }
+
+  .header .name {
+    line-height: 3em;
+  }
+
+  .list-item.selected::before {
+    background-color: #c9c9c9;
+  }
+}
+/**************************************************************/
