@@ -6,7 +6,7 @@ This repository collects theme-specific additional stylesheets (patches) that fi
 2. Copy the stylesheet and paste it to your `styles.less` (see Preferences &gt; Themes)
 
 ## Themes
-### Default Themes
+### Official Themes
 * [Atom Dark](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/atom-dark.less)
 * [Atom Light](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/atom-light.less)
 * [One Dark](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/one-dark.less)
