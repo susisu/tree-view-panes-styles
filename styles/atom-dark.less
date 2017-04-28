@@ -4,7 +4,13 @@
  */
 
 /**************************************************************/
+@import "ui-variables";
+
 .tree-view-panes {
+  .list-item-pane.active .list-item.selected::before {
+    background-color: @background-color-selected;
+  }
+
   .list-item-pane:not(.active) .list-item.selected::before {
     background-color: #444;
   }

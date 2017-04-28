@@ -4,9 +4,7 @@
  */
 
 /**************************************************************/
-.tree-view::before {
-  position: absolute !important;
-}
+@import "ui-variables";
 
 .tree-view-panes {
   .list-item-pane {
@@ -14,8 +12,8 @@
       content: "";
       position: absolute;
       z-index: 1;
-      margin-left: -5px;
-      height: 3em;
+      margin-left: -@component-icon-padding;
+      height: 2.5em;
       width: 2px;
       background: #568af2;
       opacity: 0;
@@ -29,11 +27,15 @@
   }
 
   .header .name {
-    line-height: 3em;
+    line-height: 2.5em;
   }
 
   .list-item.selected::before {
     background-color: #2d2d2d;
+  }
+
+  .list-item.drag-over::after {
+    border-bottom: 2px solid #568af2;
   }
 }
 /**************************************************************/
