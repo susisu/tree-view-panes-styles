@@ -1,9 +1,9 @@
-# tree-view-panes style patches collection
-This repository collects theme-specific additional stylesheets (patches) that fixes styling issues of [tree-view-panes](https://atom.io/packages/tree-view-panes).
+# tree-view-panes style patches
+This repository collects theme-specific additional stylesheets (patches) for [tree-view-panes](https://atom.io/packages/tree-view-panes) package.
 
 ## Usage
 1. Choose the theme you are using from the list below
-2. Copy the stylesheet and paste it to your `styles.less` (see Preferences &gt; Themes)
+2. Copy the stylesheet and paste it to your `styles.less` (Stylesheet or Preferences &gt; Themes)
 
 ## Themes
 ### Official Themes
@@ -14,5 +14,4 @@ This repository collects theme-specific additional stylesheets (patches) that fi
 
 ### Third-Party Themes
 Currently no patches are available.
-
-I would appreciate if you make a patch for your theme and create a pull request!
+Contributions are welcome!
