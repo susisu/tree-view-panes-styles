@@ -7,6 +7,8 @@ This repository collects theme-specific additional stylesheets (patches) for [tr
 
 ## Themes
 ### Official Themes
+The tree-view-panes package now includes these stylesheets, so you don't need to add them by yourself.
+
 * [Atom Dark](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/atom-dark.less)
 * [Atom Light](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/atom-light.less)
 * [One Dark](https://github.com/susisu/tree-view-panes-styles/blob/master/styles/one-dark.less)
